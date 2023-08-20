@@ -1,6 +1,7 @@
 # TextQuest 📜
 
-**Welcome to TextQuest,** a text-based adventure game where players navigate through rooms, interact with NPCs (Non-Playable Characters), and utilize items to progress in their journey. Designed for **SugarLabs**.
+**Welcome to TextQuest**<br>
+A text-based adventure game where players navigate through rooms, interact with NPCs (Non-Playable Characters), and utilize items to progress in their journey. Designed for SugarLabs.
 
 ## 🗺️ Features
 
