@@ -1,0 +1,35 @@
+{
+    "opening": "Hi, amazing explorer! Are you ready for a super fun adventure? Let's start...",
+    "genericMsgs": {
+        "missingCmd": "Oops, looks like you didn't type a command. Please try again.",
+        "invalidCmd": "Hmm, I don't know that command. Don't worry, if you're not sure what to do, just type 'help'.",
+        "helpCmd": "Commands: n (north), s (south), take [item], look, backpack, help, start over, stop",
+        "deadend": "Uh oh, there's no way to go here. Maybe try looking around for another way.",
+        "emptyInventory": "Your backpack is empty. Let's explore to find fun stuff!",
+        "noItemHere": "That item isn't here. Keep searching!"
+    },
+    "currentRoom": "Home Room",
+    "startRoom": "Home Room",
+    "exitRoom": "Ghost Room",
+    "rooms": {
+        "Home Room": {
+            "description": "You're in a cozy room with pretty drawings on the wall.",
+            "items": ["carrot"],
+            "north": "Bunny Room"
+        },
+        "Bunny Room": {
+            "requiredItem": "carrot",
+            "failToEnter": "There's a cute bunny here, but it's hungry. Maybe it needs a carrot?",
+            "entryMsg": "With a carrot in your hand, the bunny hops to you happily. You see a path to a new room.",
+            "description": "This room is full of fluffy bunnies hopping around.",
+            "items": ["ghost costume"],
+            "south": "Home Room",
+            "north": "Ghost Room"
+        },
+        "Ghost Room": {
+            "requiredItem": "ghost costume",
+            "failToEnter": "There's a friendly ghost in this room, but it's shy. Maybe a ghost costume could help you meet it?",
+            "description": "In your ghost costume, the friendly ghost waves at you! You made a new friend and completed your adventure!"
+        }
+    }
+}
