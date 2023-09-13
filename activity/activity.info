@@ -4,5 +4,5 @@ activity_version = 1
 bundle_id = org.sugarlabs.TextQuest
 exec = sugar-activity3 activity.TextQuest
 icon = activity-textquest
-license = GPLv3+
+license = MIT
 repository = https://github.com/sugarlabs/textquest.git
